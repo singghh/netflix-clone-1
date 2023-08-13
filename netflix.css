@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+}
+.bigimage{
+    background-image: url("/Images/wallpaper.jpg");
+    background-position: cover;
+    background-size: 120%;
+    background-attachment: fixed;
+    height: 700px;
+    border: 1px solid black;
+    box-shadow: inset 0px 0px 200px 100px rgba(0,0,0,0.9);
+}
+.Netflix-Brand-Logo{
+    height: 180px;
+    width: 290px;
+    margin-left: 100px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 150px;
+}
+nav a{
+    border: 0.5px solid rgba(128,128,128,0.7);
+    text-decoration: none;
+    color: white;
+    position: relative;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    position: relative;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 6px;
+}
+.globe{
+    height: 22px;
+    position: absolute;
+    left: 11px;
+    top: 7px;
+}
+.row-1{
+    text-align: center;
+    margin-top: 165px;
+}
+.row-1 h1{
+color:rgb(255, 255, 255);
+display:block;
+font-family:sans-serif;
+font-size: 48px;
+font-weight:900;
+}
+.row-1 p{
+color:rgb(255, 255, 255);
+display:block;
+font-family:sans-serif;
+font-size:24px;
+font-weight:400;
+margin-top:14px
+}
+.row-1 h3{
+color:rgb(255, 255, 255);
+display:block;
+font-family:sans-serif;
+font-size:20px;
+font-weight:400;
+margin-top:26px
+}
+.row-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.row-2 input{
+    font-size:16px;
+    font-weight: 400;
+    text-align: left;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border: 0.5px solid rgba(128,128,128,0.7);
+    width:383.266px;
+    min-width:200px;
+    height: 28px;
+    position: relative;
+    background: transparent;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.9);
+    padding-bottom:8px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:24px;
+    color: white;
+}
+.row-2 input::placeholder{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.row-2 .submit{
+    background-color: rgb(220,9,20);
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 12px 24px;
+    height: 62px;
+    width:194.734px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    text-align: center;
+    text-align: left;
+    cursor: pointer;
+}
+.row-2 .submit:hover{
+    background-color: #C11119;
+}
+nav .signin{
+    width:79.5938px;
+    min-height:36px;
+    padding-bottom:4px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:4px;
+    font-weight:500;
+    font-size: 14px;
+    background-color:rgb(229, 9, 20);
+    color:rgb(255, 255, 255);
+    text-decoration: solid;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+nav .signin:hover{
+    background-color: #C11119;
+}
+
+.down{
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top:16px;
+}
+.greater{
+    height: 18px;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+.row-3{
+    height: 12px;
+    background-color: #232323;
+}
+.row-4{
+    height: 618.734px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom:72px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:72px;
+}
+.row-4 .col-1{
+margin-left: 100px;
+}
+.row-4 h2{
+    color: white;
+    font-size:48px;
+font-weight:900;
+}
+.row-4 p{
+    color: white;
+    font-size:24px;
+    font-weight:400;
+    margin-top:16px;
+    display: block;
+    width: 550px;
+}
+.col-2 .tv{
+    width: 627.656px;
+    position: relative;
+    height: 640px;
+    width: 480px;
+    margin-right: 20px;
+}
+.tv-1-video{
+    position: absolute;
+    top: 955px;
+    right: 129px;
+    object-fit:cover;
+    overflow: hidden;
+    height:256.344px;
+    max-width: 75%;
+    max-height: 54%;
+    z-index: 0;
+}
+.row-5{
+    height: 12px;
+    background-color: #232323;
+}
+.row-6{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    height: 618.734px;
+}
+.col-4 h2{
+    font-size:48px;
+    font-weight:900;
+    color: white;
+    width: 450px;
+}
+.col-4 p{
+    font-size:24px;
+    font-weight:400;
+    color: white;
+    width: 500px;
+    margin-top: 10px;
+}
+.row-7{
+    height: 12px;
+    background-color: #232323;
+}
+.row-8{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:618.734px;
+    background-color: black;
+    position: relative;
+}
+.col-5{
+    margin-left: 80px;
+    display: block;
+    margin-bottom: 70px;
+}
+.col-5 h2{
+    font-size:48px;
+    font-weight:900;
+    color: white;
+}
+.col-5 p{
+    color:rgb(255, 255, 255);
+    font-size:24px;
+    font-weight:400;
+    width: 540px;
+    margin-top: 10px;
+}
+.row-8 .phones{
+    height:470.734px;
+    width:627.656px;
+    position: relative;
+}
+.row-8 video{
+    position: absolute;
+    height:223.125px;
+    left: 860px;
+    top: 110px;
+    max-height:47%;
+    max-width:63%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.row-9{
+    height: 12px;
+    background-color: #232323;
+}
+.row-10{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    height:618.734px;
+}
+.col-6{
+    width: 500px;
+}
+.col-6 h2{
+    color: white;
+    font-size:48px;
+    font-weight:900;
+}
+.col-6 p{
+    font-size:24px;
+    font-weight:400;
+    color: white;
+    margin-top: 20px;
+    width: 560px;
+}
+.row-11{
+    height: 12px;
+    background-color: #232323;
+}
+.row-12{
+    height:999.594px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.col-7{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+.col-7 h2{
+    font-size:48px;
+    font-weight:900;
+}
+.col-7 .row1{
+    margin-top: 10px;
+    border: 0.5px solid rgba(128,128,128,0.7);
+    font-size:24px;
+    font-weight:400;
+    text-align: left;
+    height: 84px;
+    background-color: #2D2D2D;
+    display: flex;
+    align-items: center;
+    width:1060.33px;
+    border: none;
+    position: relative;
+}
+.col-7 .row1:hover{
+    background-color: #414141;
+    cursor: pointer;
+}
+.col-7 .row1 img{
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    left: 990px;
+}
+.for-gap{
+    margin-top: 40px;
+}
+.col-7 .row1 p{
+    margin-left: 20px;
+}
+.row-14{
+    margin-top: 80px; 
+    background-color: black;
+}
+.row-14 h3{
+    font-size:20px;
+    font-weight:400;
+}
+.row-15 .submit2{
+    background-color: rgb(220,9,20);
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 12px 24px;
+    height: 62px;
+    width:194.734px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    text-align: center;
+    text-align: left;
+    cursor: pointer;
+}
+.row-15 .submit2:hover{
+    background-color: #C11119;
+}
+.greater2{
+    height: 18px;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+.row-15{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+.row-15 input{
+    font-size:16px;
+    font-weight: 400;
+    text-align: left;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border: 0.5px solid rgba(128,128,128,0.7);
+    width:383.266px;
+    min-width:200px;
+    height: 28px;
+    position: relative;
+    background: transparent;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.9);
+    padding-bottom:8px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:24px;
+}
+.row-15 input::placeholder{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.row-16{
+    height: 12px;
+    background-color: #232323;
+}
+.col-8 ul li{
+    list-style-type: none;
+    padding: 12px 0;
+    text-align: left;
+}
+.col-8{
+    margin-left: -90px;
+    margin-top: 40px;
+}
+.col-9{
+    margin-top: -70px;
+    margin-left: -290px;
+
+}
+.col-10{
+    cursor: pointer;
+    margin-top: -70px;
+    margin-left: -290px;
+}
+.col-9 ul li{
+    cursor: pointer;
+    list-style-type: none;
+    padding: 12px 0;
+}
+.col-10 ul li{
+    cursor: pointer;
+    list-style-type: none;
+    padding: 12px 0;
+}
+.col-8 ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-color:rgba(255, 255, 255, 0.7);
+    text-decoration-style:solid;
+    
+   
+    position: relative;
+}
+.col-9 ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-color:rgba(255, 255, 255, 0.7);
+    text-decoration-style:solid;
+    
+}
+.col-10 ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-color:rgba(255, 255, 255, 0.7);
+    text-decoration-style:solid;
+}
+footer .Questions{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.7);
+    top: 70px;
+    bottom: 400px;
+    left: 382px;
+    padding-top: 20px;
+}
+footer{
+    background-color: black;
+}
+footer .row-17{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 550px;
+    position: relative;
+    margin-left: -200px;
+}
+.row-17 a span{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-color:rgba(255, 255, 255, 0.7);
+}
+.globe2{
+    height: 22px;
+    position: absolute;
+    left: 11px;
+    top: 7px;
+}
+.last-down{
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top:16px;
+}
+.col-8 .end{
+    border: 0.5px solid rgba(128,128,128,0.7);
+    text-decoration: none;
+    color: white;
+    position: relative;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    position: relative;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 6px;
+}
+.row-17 h4{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 14px;
+}
